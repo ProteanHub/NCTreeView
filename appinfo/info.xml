@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>treeview</id>
+    <name>Tree View</name>
+    <summary>App for NextCloud Docs that shows the folder structure as a tree view</summary>
+    <description><![CDATA[Our users have been requesting a tree view for the folder structure. After a lot of searching, we noted several requests but no active work on this feature for NextCloud Docs.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="jcornett@proteanhub.com" homepage="https://www.proteanhub.com">John Cornett</author>
+    <namespace>TreeView</namespace>
+    <category>files</category>
+    <category>organization</category>
+    <bugs>https://github.com/ProteanHub/NCTreeView</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Tree View</name>
+            <route>treeview.page.index</route>
+        </navigation>
+    </navigations>
+</info>

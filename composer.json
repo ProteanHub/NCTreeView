@@ -1,0 +1,15 @@
+{
+    "name": "Tree View",
+    "description": "App for NextCloud Docs that shows the folder structure as a tree view",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "John Cornett"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
